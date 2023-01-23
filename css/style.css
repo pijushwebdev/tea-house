@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&family=Roboto&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.th-primary-color {
+    color: #FF8938;
+}
+
+.th-primary-bg-color {
+    background-color: #FF8938;
+}
+
+.th-secondary-color {
+    color: #FF0000;
+}
+
+.th-btn-primary {
+    background: linear-gradient(to right, #FF8938, #FF0000) !important;
+    transition: all 0.6s !important;
+    -webkit-transition: all 0.6s !important;
+    -moz-transition: all 0.6s !important;
+    -ms-transition: all 0.6s !important;
+    -o-transition: all 0.6s !important;
+}
+
+.th-btn-primary:hover {
+    background: linear-gradient(to right, #FF0000, #FF8938) !important;
+}
+
+.gradient-color {
+    background: linear-gradient(to right, #ff8838, #ff0000) !important;
+}
+
+.text-gradient {
+    position: relative ;
+    background: linear-gradient(to right, #FF8938, #FF0000) ;
+    background-clip: text ;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.text-gradient::after {
+    content: '' ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+    background: white ;
+    z-index: -1;
+}
+.box-1{
+    position: absolute;
+    width: 60%;
+    left: 30%;
+    top: -80px;
+   opacity: 0.3;
+}
+.box-2{
+    position: absolute;
+    width: 60%;
+    left: 30%;
+    bottom: -100px;
+   opacity: 0.3;
+}

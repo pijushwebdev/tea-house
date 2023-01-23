@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap v5.2.3 -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font-awesome cdn link -->
+    <script src="https://kit.fontawesome.com/74e659ce83.js" crossorigin="anonymous"></script>
+    <!-- BS icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Tea House</title>
+
+</head>
+
+<body>
+    <header id="header" class="th-primary-bg-color">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="d-inline-block text-decoration-none th-secondary-color fw-bold display-5" href="#">Tea<span
+                        class="text-white">House</span></a>
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-bolder" aria-current="page" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="#news-and-event">News</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white fw-bolder" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Plans
+                            </a>
+                            <ul class="dropdown-menu th-primary-bg-color">
+                                <li><a class="dropdown-item text-white fw-light" href="#">Smart Plan</a></li>
+                                <li><a class="dropdown-item text-white fw-light" href="#">Popular Plan</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-white fw-light" href="#">Basic Plan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="#footer">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-success text-white fw-light border-white"
+                                type="button">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container pt-5">
+                <div class="row row-cols-md-2 text-center text-md-start">
+                    <div class="col-12">
+                        <h1 class="display-2 fw-bold">It's good tea time at The Tea House</h1>
+                        <p class="text-secondary">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                            Taste Buds.</p>
+                        <button class="btn btn-primary p-3 th-btn-primary border-0">Explore More<i
+                                class="bi bi-arrow-up-right ms-2"></i></button>
+                    </div>
+                    <div class="col-12">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="./images/banner.png" alt="">
+                            <div class="d-flex bg-white shadow p-3 ps-4 align-items-center position-absolute translate-middle-y"
+                                style="width: 250px; left: 20px; bottom: -50px;">
+                                <div>
+                                    <i class="bi bi-star-fill text-warning fs-2"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="fw-bold fs-5 pb-0 mb-0">5.00</h4>
+                                    <p class="text-secondary fw-light pt-0 mt-0">Trust Pilot Ratings</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="featured-products" class="p-5">
+            <div class="container mt-5">
+                <h2 class="fw-bold fs-2 text-center mx-2">Our Featured Products</h2>
+                <p class="text-center mx-md-5 text-secondary">The orthodox tea making method is the most commonly used.
+                    In this
+                    process, the tea leaves go through
+                    four stages: withering, rolling, oxidation and drying.
+                </p>
+                <div class="mt-5">
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 text-center p-3 bg-light border-0">
+                                <div>
+                                    <img class="img-fluid" src="./images/tea-1.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fs-4 fw-bold">Milk Tea</h5>
+                                    <p class="card-text text-secondary">Creamer could be replaced by fresh milk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 text-center p-3 bg-light border-0">
+                                <div>
+                                    <img class="img-fluid" src="./images/tea-2.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fs-4 fw-bold">Black Tea</h5>
+                                    <p class="card-text text-secondary">Creamer could be replaced by fresh milk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 text-center p-3 bg-light border-0">
+                                <div>
+                                    <img class="img-fluid" src="./images/tea-3.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fs-4 fw-bold">Lemon Tea</h5>
+                                    <p class="card-text text-secondary">Creamer could be replaced by fresh milk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 text-center p-3 bg-light border-0">
+                                <div>
+                                    <img class="img-fluid" src="./images/tea-4.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fs-4 fw-bold">Green Tea</h5>
+                                    <p class="card-text text-secondary">Creamer could be replaced by fresh milk</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tea-specialty" class="my-5">
+            <div class="container">
+                <div class="row row-cols-md-1 row-cols-lg-2 row-cols-1 mx-auto">
+                    <div class="col-12 text-center">
+                        <div class="d-flex gap-3 justify-content-center mb-4">
+                            <div>
+                                <div class="bg-warning bg-gradient opacity-25 mb-3"
+                                    style="height: 135px; width: 200px;">
+
+                                </div>
+                                <div class="p-3 bg-light" style="height: 300px; width: 200px;">
+                                    <img class="img-fluid" src="./images/fresh-1.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="p-3 bg-warning bg-gradient bg-opacity-10 mb-3"
+                                    style="height: 300px; width: 200px;">
+                                    <img class="img-fluid" src="./images/fresh-2.png" alt="">
+                                </div>
+                                <div class="bg-secondary bg-gradient opacity-25" style="height: 135px; width: 200px;">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 justify-content-center">
+                        <h2 class="fw-bold fs-2">Great Tea, Freshly Presented</h2>
+                        <p class="text-secondary py-2">The meaning of gong cha is chanese is to provide the best tea to
+                            emperor from all possessions .
+                            It represents the highest quality and self expectation. Establishing in 2006, Gong cha had
+                            been
+                            deeply appreciated by its custoers because of good words of mouth and unique customized
+                            service
+                            originated from Taiwan.
+                        </p>
+                        <div class="pe-5 me-5">
+                            <h4 class="fs-4 fw-bold">Unique Taste</h4>
+                            <p class="text-secondary">A Unique and different style from other teapots gives a luxurious
+                                and minimalist impression</p>
+                            <h4 class="fs-4 fw-bold">Premium Quality</h4>
+                            <p class="text-secondary">Premium Quality that makes tea more elegant and more durable when
+                                you use it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="clients" class="my-5 pt-5">
+            <div class="container gradient-color ps-5 py-0 py-md-5">
+                <div class="row row-cols-md-2 row-cols-1 align-items-center py-0 py-md-5">
+                    <div class="col-12 position-relative  my-5 py-5">
+                        <h2 class="fs-2 fw-bold text-white">Meet Our Super Clients</h2>
+                        <p class="text-white pe-5">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered
+                            alteration in some form, by injected humour, or randomized words which don't look even
+                            slightly
+                            believable.
+                        </p>
+                        <div class="bg-white rounded" style="width: 86px;">
+                            <button type="button" class="btn text-gradient fw-bold border-0">Show All</button>
+                        </div>
+                        <div class="position-absolute start-0 top-100 translate-middle-y ps-5">
+                            <svg width="325" height="337" viewBox="0 0 325 337"
+                                class=" ms-5 mb-5 mb-md-0 pb-5 pb-md-0  ps-5" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_60_193)">
+                                    <path
+                                        d="M290.168 145.624L37.9314 182.031C27.0095 183.64 15.9401 179.984 8.5604 171.943C3.24705 166.094 0 158.345 0 149.864C0 132.319 13.8738 117.99 31.4373 117.112C32.6181 117.112 33.6512 116.966 34.832 116.82L287.069 80.5589C297.99 78.9505 309.06 82.6059 316.44 90.6476C321.753 96.4962 325 104.246 325 112.726C325 130.272 311.126 144.601 293.563 145.478C292.53 145.332 291.349 145.478 290.168 145.624Z"
+                                        fill="white" fill-opacity="0.05" />
+                                    <path
+                                        d="M263.896 231.89L61.1035 261.133C42.802 261.133 28.0427 246.512 28.0427 228.381C28.0427 210.251 42.802 195.629 61.1035 195.629L263.896 166.387C282.198 166.387 296.957 181.008 296.957 199.139C296.957 217.123 282.198 231.89 263.896 231.89Z"
+                                        fill="white" fill-opacity="0.05" />
+                                    <path
+                                        d="M210.32 321.52L114.532 336.141C96.2307 336.141 81.4714 321.52 81.4714 303.389C81.4714 285.259 96.2307 270.637 114.532 270.637L210.32 256.016C228.622 256.016 243.381 270.637 243.381 288.768C243.529 306.898 228.622 321.52 210.32 321.52Z"
+                                        fill="white" fill-opacity="0.05" />
+                                    <path
+                                        d="M195.561 76.9035V32.8931C195.561 14.7625 180.802 0.141113 162.5 0.141113C144.198 0.141113 129.439 14.7625 129.439 32.8931V86.4074L195.561 76.9035Z"
+                                        fill="white" fill-opacity="0.05" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_60_193">
+                                        <rect width="325" height="336" fill="white" transform="translate(0 0.141113)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5 py-5 mt-md-0 py-md-0">
+                        <div class="pb-5 pb-md-0">
+                            <div class="position-relative mt-5 py-5 mt-md-0 py-md-0">
+                                <div class="position-absolute w-75 opacity-25 bottom-50 mb-4" style="left: 20%;">
+                                    <div class="bg-white w-100 ps-4 pt-4 pe-1 pb-1 rounded position-relative">
+                                        <img class="img-fluid position-absolute top-0 start-0 translate-middle"
+                                            src="./images/client.png" alt="">
+                                        <p class="text-secondary">We are providing the best and suitable home insurance
+                                            services for the people who are interested to treatment</p>
+                                        <h5 class="fs-5 fw-bolder">Ilham Yuda</h5>
+                                        <p class="text-secondary">Businessman</p>
+                                    </div>
+                                </div>
+                                <div class="position-absolute w-75 opacity-25 top-50 mt-4" style="left: 20%;">
+                                    <div class="bg-white w-100 ps-4 pt-4 pe-1 pb-1 rounded position-relative">
+                                        <img class="img-fluid position-absolute top-0 start-0 translate-middle"
+                                            src="./images/client.png" alt="">
+                                        <p class="text-secondary">We are providing the best and suitable home insurance
+                                            services for the people who are interested to treatment</p>
+                                        <h5 class="fs-5 fw-bolder">Ilham Yuda</h5>
+                                        <p class="text-secondary">Businessman</p>
+                                    </div>
+                                </div>
+                                <div class="w-75">
+                                    <div class="bg-white ps-4 w-100 pt-4 pe-1 pb-1 rounded position-relative">
+                                        <img class="img-fluid position-absolute top-0 start-0 translate-middle"
+                                            src="./images/client.png" alt="">
+                                        <p class="text-secondary">We are providing the best and suitable home insurance
+                                            services for the people who are interested to treatment</p>
+                                        <h5 class="fs-5 fw-bolder">Ilham Yuda</h5>
+                                        <p class="text-secondary">Businessman</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news-and-event" class="mt-5">
+            <div class="container py-5">
+                <h2 class="fw-bold fs-2 text-center mx-2">News & Events</h2>
+                <p class="text-center mx-md-5 text-secondary">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable.
+                </p>
+                <div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-5">
+                        <div class="col">
+                            <div class="card rounded-4 p-3">
+                                <img src="./images/news-1.png" class="card-img-top " alt="...">
+                                <div class="card-body">
+                                    <p class="text-secondary">Feb 05, 2027</p>
+                                    <h4 class="card-title fw-bold">Collecting 8 points for discount</h4>
+                                    <p class="card-text text-secondary">There are many variations of passages of Lorem
+                                        Ipsum available.</p>
+                                    <a class="text-decoration-none text-dark fw-bold" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card rounded-4 p-3">
+                                <img src="./images/news-2.png" class="card-img-top " alt="...">
+                                <div class="card-body">
+                                    <p class="text-secondary">Feb 05, 2027</p>
+                                    <h4 class="card-title fw-bold">Collecting 8 points for discount</h4>
+                                    <p class="card-text text-secondary">There are many variations of passages of Lorem
+                                        Ipsum available.</p>
+                                    <a class="text-decoration-none text-dark fw-bold" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="card rounded-4 p-3">
+                                <img src="./images/news-3.png" class="card-img-top " alt="...">
+                                <div class="card-body">
+                                    <p class="text-secondary">Feb 05, 2027</p>
+                                    <h4 class="card-title fw-bold">Collecting 8 points for discount</h4>
+                                    <p class="card-text text-secondary">There are many variations of passages of Lorem
+                                        Ipsum available.</p>
+                                    <a class="text-decoration-none text-dark fw-bold" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container my-5 py-5">
+            <div class="row row-cols-md-2 row-cols-1 mb-5 gy-3">
+                <div class="col text-center text-md-start">
+                    <img src="./images/cup.png" alt="">
+                </div>
+                <div class="col">
+                    <p class="d-inline me-5">Ready to get started?</p>
+                    <button class="btn btn-primary py-3 px-5 th-btn-primary border-0">Get Started</button>
+                </div>
+            </div>
+
+            <div class="row pt-5 row-cols-1 row-cols-md-2 row-cols-lg-4 text-center text-md-start">
+                <div class="col mb-5 mb-lg-0">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <a class="d-block text-decoration-none text-dark" href="">Home</a>
+                    <a class="d-block text-decoration-none text-dark" href="">About Us</a>
+                    <a class="d-block text-decoration-none text-dark" href="">Insurance</a>
+                    <a class="d-block text-decoration-none text-dark" href="">Privacy Policy</a>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <h6 class="fw-bold">Our Service</h6>
+                    <a class="d-block text-decoration-none text-dark" href="">Life Insurance</a>
+                    <a class="d-block text-decoration-none text-dark" href="">Car Insurance</a>
+                    <a class="d-block text-decoration-none text-dark" href="">Health Insurance</a>
+                    <a class="d-block text-decoration-none text-dark" href="">House Insurance</a>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <h6 class="fw-bold">Help</h6>
+                    <a class="d-block text-decoration-none text-dark" href="">FAQs</a>
+                    <a class="d-block text-decoration-none text-dark" href="">Contact Us</a>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <h4 class="fw-bold">Subscribe to our newsletter</h4>
+                    <div>
+                        <form action="#" class="d-flex">
+                            <input type="email" class="form-control me-2  shadow-none border border-2 border-dark rounded-0 border-top-0 border-start-0 border-end-0" placeholder="Enter an email" required>
+                            <button type="submit" class="btn border-0 rounded-circle th-btn-primary"><i class="fa-solid fa-greater-than text-white"></i></button>
+                        </form>
+                    </div>
+                    <div class="mt-5">
+                        <a class="text-decoration-none text-secondary me-3" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="text-decoration-none text-secondary me-3" href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a class="text-decoration-none text-secondary me-3" href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center pt-5 mt-5"> © 2023 Pijush - All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- BS JS file -->
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
